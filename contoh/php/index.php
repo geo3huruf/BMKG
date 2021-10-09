@@ -6,7 +6,7 @@
 $lat = -6.3730914;
 $lon = 106.7116703;
 
-$wilayah = json_decode(file_get_contents("https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json"),true);
+$wilayah = json_decode(file_get_contents("https://geo3huruf.github.io/BMKG-importer/cuaca/wilayah.json"),true);
 $jml = count($wilayah);
 
 //  hitung jarak
