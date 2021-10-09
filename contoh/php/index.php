@@ -31,7 +31,7 @@ echo number_format($wilayah[0]['jarak'],2,",",".")." km</h2>\n";
 echo "\n";
 
 //ambil cuaca kota terdekat
-$json = json_decode(file_get_contents("https://ibnux.github.io/BMKG-importer/cuaca/".$wilayah[0]['id'].".json"),true);
+$json = json_decode(file_get_contents("https://geo3huruf.github.io/BMKG-importer/cuaca/".$wilayah[0]['id'].".json"),true);
 $time = time();
 $n = 0;
 echo '<table border="1"><tr>';
@@ -40,7 +40,7 @@ foreach($json as $cuaca){
     //yang lewat ngga perlu ditampilkan
     if($timeCuaca>$time){
         echo '<td>';
-        echo '<img src="https://ibnux.github.io/BMKG-importer/icon/'.$cuaca['kodeCuaca'].'.png" class="image">';
+        echo '<img src="https://geo3huruf.github.io/BMKG-importer/icon/'.$cuaca['kodeCuaca'].'.png" class="image">';
         echo '<p>'.$cuaca['cuaca'].'</p>';
         echo "</td>\n";
     }
