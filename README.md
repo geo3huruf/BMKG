@@ -56,5 +56,4 @@ cek folder **contoh**
 
 Silahkan dimanfatkan untuk keperluan anda
 
-Salam
-Ibnu Maksum (@ibnux)
+From By: (@ibnux)
