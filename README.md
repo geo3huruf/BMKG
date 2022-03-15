@@ -26,21 +26,21 @@ kecuali anda mau host datanya di Github juga
 # Pakai langsung?
 
 siapkan url endpoint
-```https://geo3huruf.github.io/BMKG-importer/```
+```https://geo3huruf.github.io/BMKG/```
 
 dari aplikasi, unduh file wilayah.json
-```https://geo3huruf.github.io/BMKG-importer/cuaca/wilayah.json```
+```https://geo3huruf.github.io/BMKG/cuaca/wilayah.json```
 
 Dari json tersebut, kalkulasi lokasi user dengan wilayah terdekat, atau user pilih sendiri.
 
 lalu download cuaca di wilayah yang dipilih berdasarkan kodenya
-```https://geo3huruf.github.io/BMKG-importer/cuaca/idWilayah.json```
+```https://geo3huruf.github.io/BMKG/cuaca/idWilayah.json```
 
 contoh:
-```https://geo3huruf.github.io/BMKG-importer/cuaca/501233.json```
+```https://geo3huruf.github.io/BMKG/cuaca/501233.json```
 
 sesuaikan kode cuaca dengan icon di folder icon
-```https://geo3huruf.github.io/BMKG-importer/icon/5.png```
+```https://geo3huruf.github.io/BMKG/icon/5.png```
 
 
 # Contoh
